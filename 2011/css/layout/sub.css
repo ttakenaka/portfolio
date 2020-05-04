@@ -1,0 +1,82 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+ Sub Menu Layout
+--------------------------------------------------------*/
+.bd_green
+{
+	border:1px #339999 solid;
+	padding:10px;
+}
+
+.column_box
+{
+	width:350px;
+}
+
+.column_box img
+{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.column_box_02
+{
+	width:460px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.column_box_02 ul li
+{
+	margin-bottom:10px;
+}
+
+.column_box_03
+{
+	width:440px;
+	margin-bottom:10px;
+	margin-top:10px;
+	background-color:#333333;
+	padding:10px;
+}
+
+#side_ad{}
+
+#side_ad ul li
+{
+	margin-bottom:15px;
+}
+
+.side_photo
+{
+	margin-bottom:15px;
+}
+
+/* Studio Menu
+---------------------------------------------------------*/
+.place_category_02{}
+
+/* School Lesson
+---------------------------------------------------------*/
+.btn_func_01
+{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.border_box_04
+{
+	margin-bottom:15px;
+	width:330px;
+	border:#999999 solid 1px;
+	padding:10px;
+}
+
+.border_box_04 img
+{	
+	float:left;
+	margin-right:10px;
+}

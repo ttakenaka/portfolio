@@ -1,0 +1,305 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+ Common Class
+--------------------------------------------------------*/
+
+/* Body
+--------------------------------------------------------*/
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "ÉÅÉCÉäÉI",Meiryo,"Hiragino Kaku Gothic Pro", "ÉqÉâÉMÉmäpÉS Pro W3",Osaka,"ÇlÇr ÇoÉSÉVÉbÉN", sans-seri!important;
+}
+
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#FFF;
+}
+
+img
+{
+	border:0;
+	margin:0;
+	padding:0;
+	vertical-align:bottom;
+}
+
+a img
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+/* Common Layout
+----------------------------------------------------------*/
+
+/* H Class -----------------------------------------------*/
+h1,h2,h3,h4,h5,h6
+{
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+
+/* Common ID - Layout ------------------------------------*/
+caption{}
+
+li
+{
+	list-style-type:none;
+}
+
+.strong{}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+table{}
+
+th,td{}
+
+/* Common Class - Layout ---------------------------------*/
+.fl
+{
+	float:left;
+}
+
+.fr
+{
+	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+.al
+{
+	text-align:left;
+}
+
+.ac
+{
+	text-align:center;
+}
+
+.ar
+{
+	text-align:right;
+}
+
+.vat
+{
+	vertical-align:top;
+}
+
+.vam
+{
+	vertical-align:middle;
+}
+
+.vab
+{
+	vertical-align:bottom;
+}
+
+.ncowrap
+{
+	white-space:nowrap;
+}
+
+/* Margin Class - Layout ---------------------------------*/
+.mr_3
+{
+	margin-right:3px;
+}
+
+.mr_5
+{
+	margin-right:5px;
+}
+
+.mr_10
+{
+	margin-right:10px;
+}
+.mr_20
+{
+	margin-right:20px;
+}
+.mr_45
+{
+	margin-right:45px;
+}
+.ml_5
+{
+	margin-left:5px;
+}
+.ml_10
+{
+	margin-left:10px;
+}
+.ml_15
+{
+	margin-left:15px;
+}
+.ml_20
+{
+	margin-left:20px;
+}
+
+.ml_12
+{
+	margin-left:12px;
+}
+.mb_5
+{
+	margin-bottom:5px;
+}
+.mb_10
+{
+	margin-bottom:10px;
+}
+.mb_15
+{
+	margin-bottom:15px;
+}
+.mt_20
+{
+	margin-top:20px;
+}
+.mt_15
+{
+	margin-top:15px;
+}
+.mt_10
+{
+	margin-top:10px;
+}
+.mt_5
+{
+	margin-top:5px;
+}
+.pt_5
+{
+	padding-top:5px;
+}
+.pt_8
+{
+	padding-top:8px;
+}
+.pt_25
+{
+	padding-top:25px;
+}
+
+.pl_3
+{
+	padding-left:3px;
+}
+
+.pl_5
+{
+	padding-left:5px;
+}
+
+.pl_10
+{
+	padding-left:25px;
+}
+
+.pl_28
+{
+	padding-left:28px;
+}
+
+.pl_20
+{
+	padding-left:20px;
+}
+
+.pl_23
+{
+	padding-left:23px;
+}
+
+/* Contents Area Layout-----------------------------------*/
+.text_ct
+{
+	clear:both;
+	margin-bottom:10px;
+}
+
+.text_fl
+{
+	float:left;
+	margin-bottom:10px;
+}
+
+.text_fl img
+{
+	float:right;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.text_fr{}
+
+.text_fr img
+{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.cap_l
+{
+	float:right;
+	margin-bottom:10px;
+}
+
+.cap_r
+{
+	float:left;
+	margin-bottom:10px;
+}
+
+.cap_l img
+{
+	margin-bottom:5px;
+	margin-left:10px;
+}
+
+.cap_r img
+{
+	margin-bottom:5px;
+	margin-right:10px;
+}
+
+hr{display:none;}

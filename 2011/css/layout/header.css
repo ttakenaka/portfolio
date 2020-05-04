@@ -1,0 +1,32 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+ Header Layout
+--------------------------------------------------------*/
+
+#area_header{}
+
+#header
+{
+	height:60px;
+	position:relative;
+}
+#header h1
+{
+	position:absolute;
+	top:20px;
+	left:0;
+}
+
+
+#header_l
+{
+}
+
+#header_r
+{
+}
+
+#header_menu
+{
+}

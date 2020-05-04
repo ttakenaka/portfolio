@@ -1,0 +1,190 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+ Column Layout
+--------------------------------------------------------*/
+
+/* Common
+--------------------------------------------------------*/
+
+/* Body Text -------------------------------------------*/
+.body_text_01
+{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.body_text_02
+{
+	margin-bottom:10px;
+}
+
+.body_text_03
+{
+	margin-left:20px;
+	margin-bottom:10px;
+}
+
+.more_info
+{
+	float:right;
+}
+
+.mymemo{}
+
+
+/* column -----------------------------------------------*/
+#side_news
+{
+	width:228px;
+	max-height:120px;
+	clear:both;
+	text-align:left;
+	overflow:scroll-y;
+	background:#FFFFFF;
+	padding:5px 10px 5px;
+	margin:0 0 5px 1px;
+	border:1px solid #CCCCCC;
+}
+#side_news_lgin
+{
+	clear:both;
+	margin:0 0 5px 0;
+}
+
+#side_stf
+{
+	width:200px;
+	_width:190px;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+
+.side_bnr
+{
+	text-align:left;
+	background:#FFFFFF;
+	margin-top:8px;
+}
+
+/* CTS --------------------------------------------------*/
+.url_position
+{ 
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* Login ------------------------------------------------*/
+.account_box
+{
+ 	margin-bottom:15px;
+	width:958px;
+	margin-left:10px;
+	border:#999999 solid 1px;
+	padding:10px;
+}
+.half_box_l
+{
+	float:left;
+	width:470px;
+	margin-left:10px;
+}
+.half_box_r
+{
+	float:right;
+	width:470px;
+	margin-right:10px;
+}
+.column_box_04
+{
+	width:470px;
+}
+
+.column_box_04 img
+{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+/* Contact ----------------------------------------------*/
+.enter_p
+{
+	margin-bottom:10px;
+}
+
+.entryform table tr td
+{
+	padding:0;
+}
+
+.entryform td
+{
+	padding:10px;
+}
+
+/*問い合わせ画面loginボタン*/
+.login_center_button{
+	text-align:center; 
+	padding:30px;
+}
+/*login forget 画面開始*/
+.login_forget_content_mail{
+	width:900px; 
+	margin:0 50px;	
+	border:#FFFFFF solid 1px;
+}
+.login_forget_content_mail .top{
+	width:860px; 
+	margin:20px; 
+	font-size:77%;
+}
+.login_forget_content_mail .text_l{
+	width:60px;
+	margin-left:20px;
+	float:left;
+	font-size:77%;
+}
+.login_forget_content_mail .text_r{
+	width:800px; 
+	float:left; 
+	line-height:1.5em; 
+	font-size:77%;
+}
+
+.login_forget_entryform{
+	margin:20px;
+}
+
+.login_forget_center_button{
+	text-align:center;
+	margin:30px 0 10px 0;
+}
+/*login forget 画面終了*/
+
+.entryform span
+{
+	
+}
+
+/*お問い合わせ画面input 長さ固定*/
+.entry_input_text_username{
+	width:145px;
+}
+/*お問い合わせ画面input 長さ固定*/
+.entry_input_text_factoryName{
+	width:350px;
+}
+
+/*お問い合わせ画面input 長さ固定*/
+.entry_input_text_other{
+	width:490px;
+}
+
+/*school lesson 詳細画面keyword input 長さ固定*/
+.school_lesson_input_text_keyword{ width:290px;}
+
+/*enter form 画面textarea長さ固定*/
+.enter_form_input_textarea{
+	width:490px; 
+}

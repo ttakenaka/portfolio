@@ -1,0 +1,75 @@
+@charset "Shift_JIS";
+
+/* Main Contents - Layout --------------------------------*/
+
+#side_menu
+{
+	width:210px;
+	float:left;
+	padding:0 0 0 12px;
+	min-height:100%;
+}
+
+#column
+{
+	position:absolute;
+	left:200px;
+	margin:0;
+	*margin:0 0 0 3px;
+	padding-bottom:20px;
+}
+
+#col_01,#col_09
+{
+	width:606px;
+	float:left;
+	padding:6px 25px 0px 27px;
+	*padding:6px 10px 5px 17px;
+}
+
+
+/* Head line ---------------------------------------------*/
+
+.center{
+	text-align:center;
+}
+
+/* Works ---------------------------------------------*/
+
+.entry{
+	float:left;
+	height:165px;
+	width:184px;
+	position:relative;
+	margin:0 0 1em;
+}
+
+span.img{
+	clear:both;
+	display:block!important;
+	height:122px;
+	margin:0 30px 8px 0;
+	border:1px solid #DDD
+}
+span.img a:link,span.img a:visited{
+	border:1px solid #FFF;
+	display:block!important;
+	height:120px;
+	overflow:hidden;
+	background:#f2f2f2;
+}
+span.img a:hover,span.img a:active{
+	border:1px solid #720049;
+	display:block!important;
+	height:120px;
+	overflow:hidden;
+}
+span.img a img{
+	display:block!important;
+}
+.entry p.entry_title{
+	font-size:0.77em;
+	line-height:1.5;
+	margin-bottom:1em;
+	width:155px;
+}

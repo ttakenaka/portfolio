@@ -1,0 +1,10 @@
+@charset "Shift_JIS";
+
+@import url(layout/base.css);
+@import url(layout/header.css);
+@import url(layout/footer.css);
+@import url(layout/global.css);
+@import url(layout/sub.css);
+@import url(layout/column.css);
+@import url(layout/forms.css);
+@import url(layout/layout.css);

@@ -1,0 +1,165 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+ Form Layout
+--------------------------------------------------------*/
+
+/* Search ----------------------------------------------*/
+#search
+{
+	width:590px;
+	margin-bottom:40px;
+}
+
+.search_title_01
+{
+}
+
+.search_title_02
+{ 
+	width:200px;
+	float:left;
+}
+
+.search_title_03
+{ 
+	width:250px;
+	float:left;
+}
+
+.search_title_04
+{
+	width:350px;
+}
+
+.search_title_05
+{ 
+	float:left;
+}
+
+.search_title_l
+{  
+	width:590px;
+	margin:5px 0;
+}
+
+.search_box
+{
+	margin-top:7px;
+	margin-bottom:5px;
+}
+
+.search_func_01{}
+
+.search_func_02{}
+
+.search_func_03
+{
+	margin-bottom:10px;
+}
+
+.search_func_04
+{
+	float:left;
+}
+
+.search_func_05,
+.search_func_06,
+.search_func_07
+{ 
+	padding-left:10px;
+	margin-bottom:10px;
+}
+.submitposition
+{ 
+	text-align:center;
+	margin:10px 0px;
+}
+
+.search_result
+{
+	padding:8px 0px;
+	border:#FFFFFF solid 1px;
+	margin-bottom:20px;
+}
+
+.result_number
+{
+	margin:auto;
+}
+
+#search_sub
+{
+	width:350px;
+}
+
+.submitposition_sub
+{
+	text-align:center;
+}
+
+.search_result
+{
+	padding:8px 0px;
+	border:#FFFFFF solid 1px;
+	margin-bottom:20px;
+}
+
+/* Login -----------------------------------------------*/
+#area_login_01,
+#area_login_02,
+#area_login_03
+{
+	width:620px;
+	border:#999999 solid 1px;
+	padding:10px;
+	margin:0px auto;
+	margin-bottom:15px;
+}
+
+.login_box_01,
+.login_box_02
+{
+	width:620px;
+	margin-top:15px;
+}
+
+.login_box_01_l
+{ 
+	width:200px;
+	float:left;
+}
+
+.login_box_01_r
+{
+	 width:420px;
+	 float:left;
+}
+.login_box_01_r input { width:300px;}
+.login_box_02_l
+{
+ 	width:250px;
+	float:left;
+}
+
+.login_box_02_r
+{
+ 	width:300px;
+	float:left;
+}
+
+.entryform_username
+{
+	width:175px;
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+.content_mail
+{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:30px;
+	margin-bottom:230px;
+	width:980px;
+}
