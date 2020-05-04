@@ -34,7 +34,7 @@ $(document).ready(function(){
 		 if(lazyload==false || isMobile == true) return false;
 			 
           $("img.lazy").lazyload({
-             placeholder : "images/blank.gif",
+             placeholder : "/portfolio/2013/images/blank.gif",
              effect : "fadeIn"
           });
 		  

@@ -1,19 +1,440 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-<meta charset="UTF-8">
-<title>TipsNote : GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+<meta name="robots" content="index,follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="/portfolio/2013/css/flexslider.css" />
+<link rel="stylesheet" type="text/css" href="/portfolio/2013/css/jquery.fancybox-1.3.4.css"/>
+<link rel="stylesheet" type="text/css" href="/portfolio/2013/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/portfolio/2013/css/epicslider.css" />
+<link rel="stylesheet" type="text/css" href="/portfolio/2013/css/udt_shortcodes.css" />
+<link rel="stylesheet" type="text/css" href="/portfolio/2013/css/udt_media_queries.css" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
+<title>Tetsu Takenaka Portfolio</title>
+<script type="text/javascript" src="/portfolio/2013/js/iOS-timer.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.mobile-touch-swipe-1.0.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.epicslider.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.ajaxloading.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/waypoints.min.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/onepage.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/common.js"></script>
+<script type="text/javascript" src="/portfolio/2013/js/contact.js"></script>
+<script type="text/javascript">
+
+			var isMobile = false;
+
+			if( navigator.userAgent.match(/Android/i) ||
+				navigator.userAgent.match(/webOS/i) ||
+				navigator.userAgent.match(/iPhone/i) ||
+				navigator.userAgent.match(/iPad/i)||
+				navigator.userAgent.match(/iPod/i) ||
+				navigator.userAgent.match(/BlackBerry/i)){
+
+				isMobile = true;
+
+			}
+
+			/*iOS5 fixed-menu fix*/
+			var iOS5 = false;
+
+			if (navigator.userAgent.match(/OS 5(_\d)+ like Mac OS X/i)){
+
+				iOS5 = true;
+
+			}
+
+			$(window).load(function() {
+
+				//call slider
+				$('.epicSlider').epicSlider({
+
+					loop : true,									//Boolean: whether slideshow should loop or not
+					slideShow: true,								//Boolean: use slideshow or not
+					autoPlay: true,								//Boolean: autoplay uplon load or not
+					slideShowInterval :3500,						//Integer: slideshow cycling speed, in milliseconds
+					transitionSpeed : 1000,							//Integer: transitions speed, in milliseconds
+					startSlide : 0,									//Integer: starts at 0
+					shuffleSlides:false,							//Boolean: shuffle slides or not
+					stack:false,									//Boolean:stack slides
+					easing : 'easeInOutQuint', 						//String: easing method - see https://jqueryui.com/demos/effect/easing.html
+					fx : 'leftToRight',								//String: none, fade, leftToRight, topToBottom
+					fxmobile : 'leftToRight',						//String: mobile effect -  none, fade, leftToRight, topToBottom
+					pattern :true									//Boolean: add pattern or not
+
+				});
+
+
+			});
+</script>
+<link rel="shortcut icon" href="/portfolio/2013/avatar_128.pnj" />
+<link rel="apple-touch-icon" href="/portfolio/2013/avatar_128.pnj"/>
 </head>
 
 <body>
-<main>
-  <h1>GitHub Pages のサンプルです</h1>
-  <a href="https://ttakenaka.github.io/portfolio/"><button>戻る</button></a>
-</main>
 
-<script>
-console.log('GitHub Pages Sample');
-</script>
+<!--start wrapper-->
+<div id="wrapper">
+
+	<!--start header-->
+    <div class="header header-main">
+      <div class="inner">
+            <div class="logo-container">
+                 <div class="logo">
+                     <a class="navigateTo" href="#homepage"><img src="/portfolio/2013/images/logo.png" title="ego studios" alt=""/></a>
+                 </div>
+           </div>
+
+         <!--mobileMenu toggle-->
+         <div class="mobileMenuToggle"><a href=""></a></div>
+
+         <!--navigation-->
+         <ul class="navigation">
+         	<li><a class="navigateTo" href="#homepage">Home</a></li>
+            <li><a class="navigateTo" href="#about">About</a></li>
+            <li><a class="navigateTo" href="#folio">Folio</a></li>
+            <li><a class="navigateTo" href="#contact">Contact</a></li>
+			<li><a class="navigateTo" href="https://takeboooooo.tumblr.com/">Blog</a></li>
+         </ul>
+        </div>
+    </div>
+    <!--end header-->
+
+	<!--start homepage-->
+    <div id="homepage" class="homepage section">
+
+        <!--start slider-->
+        <div id="epicSlider1" class="epicSlider theme-default slider-wrapper">
+                <div id="slides">
+                	<img src="/portfolio/2013/images/gallery/11.jpg" alt="Image 1" title="#html-content1" />
+                    <img src="/portfolio/2013/images/gallery/17.jpg" alt="Image 1" title="#html-content4" />
+                    <img src="/portfolio/2013/images/gallery/12.jpg" alt="Image 2" title="#html-content2"/>
+                    <img src="/portfolio/2013/images/gallery/14.jpg" alt="Image 3" title="#html-content3"/>
+                 </div>
+
+                 <!--graphic logo-->
+                 <div class="epic-graphic logo-homepage" id="html-content1">
+                    <a class="navigateTo" href="#about"></a>
+                 </div>
+
+                 <!--caption 1-->
+                  <div class="epic-caption bottomRight epic-impact" id="html-content2">
+                     <h3 class="variation"><span>WELCOME TO</span></h3>
+                     <h1><span>TETSU TAKENAKA PORTFORIO</span></h1>
+                     <a class="navigateTo" href="#about"><span>Discover the Creater</span></a>
+                   </div>
+
+                  <!--caption 2-->
+                  <div class="epic-caption centered epic-impact-2" id="html-content3">
+                 	 <div>
+                    	 <h2><span>A </span> Creative <span>THAT</span><br/> EXPRESS <span>WITH </span>ATTITUDE<br/><a href="#!folio/project-1.html">DISCOVER PROJECT</a></h2>
+            		</div>
+                 </div>
+
+                  <!--caption 3-->
+                  <div class="epic-caption bottomRight descrete" id="html-content4">
+                  <div>
+                  	 <h3>TETSU<span>TAKENAKA</span> in TOKYO</h3>
+                     <h5>1ST <span>JANUARY </span>2013</h5>
+                     <p>東京都在住のWEBデザイナー、竹中哲（タケナカテツ）のポートフォリオサイトです。<br/> 案件のご相談・ご依頼等は、お気軽にお問合せ下さい。<br/>
+                     <a class="navigateTo" href="#contact">Click here</a></p>
+                   </div>
+                 </div>
+            </div>
+          <!--end slider-->
+      </div>
+	 <!--end homepage-->
+
+
+     <!--start page 1-->
+     <div id="about" class="page odd section">
+
+        <!--start p1 content-->
+        <div class="content clearfix">
+
+        	 <!--section title-->
+            <div class="section-title">
+				 <h3><span>ABOUT</span>ME</h3>
+          		 <h6><span>AND MY</span> SKILL</h6>
+            </div>
+      		<!--end section title-->
+
+            <div class="team  ">
+                <div class="round-thumb-container">
+                    <div class="round-thumb">
+                     	 <span>
+                             <img class="lazy" src="/portfolio/2013/images/gallery/team-2.jpg" alt=""/>
+                         </span>
+                    </div>
+              </div>
+                <h5>Tetsu <span>Takenaka</span></h5>
+            	<p>デザイナー竹中哲（タケナカテツ）のポートフォリオサイトです。<br>
+					モットーは"他人目線"、好きな言葉は"雨に日にも優しく"。<br>
+					休日はだいたいフットサルやってます。<br>
+					sex:male , birth:03.01 , blood: A</p>
+                 <!--social networks-->
+            <ul class="socialSmall even">
+            	<li><a class="pinterest" href="https://pinterest.com/takeboooooo/"></a></li>
+                <li><a class="twitter" href="https://twitter.com/takeboooooo"></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/take.bo3"></a></li>
+            </ul>
+            </div>
+
+
+            <div class="clearfix"></div>
+            <div class="divider"></div>
+
+            <h4>Service <span>Breakdown</span></h4>
+
+ 			 <!--chart-->
+            <div class="chart-container">
+            	<ul class="chart">
+                	<li style="width:50%">
+                    	<h6>Design</h6>
+                        <div class="odd-bar">50%</div>
+                    </li>
+            		<li style="width:25%">
+                    	<h6>HTML・CSS</h6>
+                        <div class="odd-bar">25%</div>
+                    </li>
+                    <li style="width:25%">
+                    	<h6>JS</h6>
+                        <div class="odd-bar">25%</div>
+                    </li>
+                </ul>
+            </div>
+
+             <div class="column_one_third">
+				 <p> WEB、アプリ、紙媒体（看板、電車内の吊広告、雑誌、DM、名刺）等、幅広くやってきました。<br>
+					 デザインで何でも解決したい人です。</p>
+             </div>
+
+             <div class="column_one_third">
+              <p> コーディングはXHTML+CSS2.0の時代に叩き込みました。<br><br>
+				  HTML5+CSS3は独学で習得。<br>
+				  嫌いなブラウザはIEでしたが、最近はあまりお見かけしなくなりましたね。</p>
+             </div>
+             <div class="column_one_third last">
+              <p> FLASH 勉強してましたが、JSが主流になったため、そちらに注力しています。<br>
+              プロトタイピングにも必要なので、簡単なモノは自分で書きます。<br>
+			  時代に合ったものをどんどん取り入れていきたい、と思ってます。</p></div>
+
+
+
+     	</div>
+        <!--end p1 content-->
+
+        <!--start teaser-->
+         <div id="teaser-1" class="teaser fixed" style="background-image: url(/portfolio/2013/images/gallery/teaser-2b.jpg);">
+             <div class="info-container">
+				<div class="info">
+                	<div class="info-inner">
+                       <h6>GIVE <span>ME</span> WORKS!</h6>
+                      <blockquote class="theme clear">あなたのいいところを見つけ出して、わかりやすく伝えます。<p class="blockquote_cite">見やすいとか、わかりやすいとか、そういうデザインを作ります。</p></blockquote>
+                    </div>
+				</div>
+             </div>
+             <!--section-button-->
+			<div class="section-button">
+				<a class="page-up navigateTo" href="#about"></a>
+			</div>
+         </div>
+       <!--end teaser-->
+
+     </div>
+	<!--end page 1-->
+
+
+     <!--start page 2-->
+     <div id="folio" class="page even section">
+
+
+        <!--start p2 content-->
+        <div class="content clearfix">
+
+            <!--section title-->
+            <div class="section-title">
+          		 <h3>MY <span>WORKS</span></h3>
+                 <h5><span>A</span> COLLECTION <span>OF</span> TT</h5>
+            </div>
+            <!--end section title-->
+
+            <!--start ajax content area-->
+            <div id="ajaxwrapper">
+
+              <!--start project menu-->
+              <div id="folio-navigation">
+                  <ul>
+                      <li id="prevProject"><a href="#"></a></li>
+                      <li id="closeProjectMobile"><a href="#"></a></li>
+                      <li id="nextProject"><a href="#"></a></li>
+                   </ul>
+               </div>
+               <!--end project menu-->
+
+               <!--project-close-button-->
+               <div id="closeProject">
+               		<a href="#folio"></a>
+               </div>
+
+               <!--start loader-->
+               <div id="loader"></div>
+
+               <!--start content-->
+               <div id="ajax-content-outer">
+               		<div id="ajax-content-inner"></div>
+               </div>
+               <!--end content-->
+          	 </div>
+    		<!--end ajax content area-->
+
+
+   			 <!--start grid-->
+       		 <div id="folio-grid">
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-1.html" title="Mock UP"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-1.jpg" alt=""/></a> </div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-2.html" title="Smart Phone : PaToRi"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-2.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-3.html" title="Business Market"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-3.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-4.html" title="nifty signboard"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-4.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-5.html" title="Lunch Guide"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-5.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-6.html" title="Cloud Funding Project"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-6.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-7.html" title="Nifty Serve"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-7.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-8.html" title="SERIZAWA FIELDS"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-8.jpg" alt=""/></a></div> </div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-9.html" title="NIFTY Calender 2012"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-9.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-10.html" title="NIFTY New Year's greeting card"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-10.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-11.html" title="Smart Phone : Mid Town Award"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-11.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-12.html" title="NIFTY Cloud Pamphlet"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-12.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-13.html" title="Smart Phone : Chinemal"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-13.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-14.html" title="Tokyo Metro Rainbow"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-14.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="#!folio/project-15.html" title="The Workaholicks"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-15.jpg" alt=""/></a></div></div>
+             <div class="folio-thumb-container"><div class="folio-thumb"><a href="/portfolio/2011/works.html" target="_blank" title="Past Works"><img class="lazy" src="/portfolio/2013/images/gallery/project-thumb-16.jpg" alt=""/></a></div></div>
+   		  </div>
+
+   	   </div>
+       <!--end p2 content-->
+
+       <!--start teaser-->
+        <div id="teaser-2" class="teaser fixed" style="background:url(/portfolio/2013/images/gallery/teaser-3.jpg) no-repeat;text-align:center;">
+            <div class="info-container">
+                <div class="info">
+                    <h6>RECENT <span>CLIENTS</span></h6>
+                     <a href="https://www.nifty.com/"><img style="margin-right:20px;" src="/portfolio/2013/images/logos/logo-001.png" alt=""/></a>
+                     <a href="https://jp.fujitsu.com/"><img style="margin-right:20px;" src="/portfolio/2013/images/logos/logo-002.png" alt=""/></a>
+                     <a href="https://otakumode.com/"><img style="margin-right:20px;" src="/portfolio/2013/images/logos/logo-003.png" alt=""/></a>
+                </div>
+            </div>
+             <!--section-button-->
+            <div class="section-button">
+                <a class="navigateTo page-up" href="#folio"></a>
+            </div>
+        </div>
+        <!--end teaser-->
+
+     </div>
+	<!--end page 2-->
+
+
+
+     <!--start page 3-->
+     <div id="contact" class="page odd section">
+
+        <!--start p3 content-->
+        <div class="content clearfix">
+
+        	<!--section title-->
+            <div class="section-title">
+          		 <h3>CONTACT <span>ME</span></h3>
+<!--                 <h6><span>LET'S</span> HAVE <span>A</span> DISCUSSION</h6>-->
+            </div>
+      		<!--end section title-->
+
+            <div class="column_one_third contact">
+          		<div class="round-thumb-container">
+                    <div class="round-thumb">
+						<a class="" href="https://goo.gl/maps/6TqBI" rel="map" title="google map">
+                         <img class="lazy" src="/portfolio/2013/images/gallery/map.jpg" alt=""/>
+                         </a>
+                    </div>
+                </div>
+
+
+              <p><strong>tel:</strong> 090 9301 6267 <br/><strong>mail:</strong> <a href="mailto:tt.design110@gmail.com">tt.design110@gmail.com</a><br/><strong>skype:</strong>amenohinimo_yasasiku<br/> <br/>Suginami Tokyo, JAPAN 1660003<br/><br />
+			  飲ミニケーション派なので、<br />
+		  お酒誘われたら断りません。</p>
+            </div>
+
+            <div class="column_two_thirds last">
+            <h4>Drop <span>a</span> line</h4>
+                  <form action="/php/contact.php" method="post" class="contactForm form" id="contact-form">
+                      <p><input type="text" name="name" class="required" id="name" value="Your Name" /></p>
+                      <p><input type="text" name="email" class="required" id="email" value="E-mail" /></p>
+                      <p><input type="text" name="subject" id="subject" value="Subject" /></p>
+                      <textarea  class="required" name="message" id="message" rows="" cols="">Message</textarea>
+                      <input type="submit" value="送信" class="submit submitTheme" id="submitform" />
+           					  <span id="msg">* = 必須項目</span>
+                 </form>
+<!--
+                 <form role="form" action="/php/mail.php" method="post">
+                    <div class="form-group">
+                      <label for="exampleInputName1">Your Name</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name" name="name" required>
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required>
+                      <label for="exampleInputText1">Message</label>
+                      <textarea class="form-control" rows="3" name="message" required></textarea>
+                    </div>
+                    <button type="submit" value="SEND MESSAGE" class="btn btn-default">Submit</button>
+                </form>
+-->
+          </div>
+   	   </div>
+        <!--end p3 content-->
+
+
+        <!--start teaser-->
+         <div id="teaser-3" class="teaser fixed" style="background-image: url(/portfolio/2013/images/gallery/teaser-4.jpg);">
+            <div class="info-container">
+                <div class="info">
+                 <h6>THANK'S <span>for</span> LOOKING <span>Mine</span> &amp; <span>See</span>YOU.</h6>
+             	</div>
+            </div>
+            <!--section-button-->
+            <div class="section-button">
+                <a class="page-up navigateTo" href="#contact"></a>
+            </div>
+         </div>
+       <!--end teaser-->
+
+     </div>
+	<!--end page 3-->
+
+
+    <!--start footer-->
+    <div id="footer" class="even">
+    	<div class="content">
+        	<!--social networks-->
+            <ul class="socialSmall even">
+            	<li><a class="pinterest" href="https://pinterest.com/takeboooooo/"></a></li>
+                <li><a class="twitter" href="https://twitter.com/takeboooooo"></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/take.bo3"></a></li>
+            </ul>
+        	<div class="logo">
+            	<a class="navigateTo" href="#homepage"><img src="/portfolio/2013/images/logo-common.png" alt="TETSU"/></a>
+            </div>
+			<p class="copyright">&copy; <a href="mailto:tt.design110@gmail.com">Tetsu Takenaka</a>.2013. <br/>All rights reserved.</p>
+        </div>
+    </div>
+    <!--end footer-->
+
+</div>
+<!--end wrapper-->
+
+
 </body>
 </html>
