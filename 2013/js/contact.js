@@ -35,7 +35,7 @@ $(document).ready(function() {
 	
 	$('.contactForm').submit(function() {
 		$('.contactForm .submit').attr("disabled", "disabled");
-		$('#msg').html('<img src="images/loader-light.gif" />').removeClass('errorMsg successMsg');
+		$('#msg').html('<img src="/portfolio/2013/images/loader-light.gif" />').removeClass('errorMsg successMsg');
 		var isError=false;
 		$('.contactForm input, .contactForm textarea').each(function() {
 			if($(this).hasClass('required') && ($.trim($(this).val())==contactFormDefaults[$(this).attr('id')] || $.trim($(this).val())=='')) {
