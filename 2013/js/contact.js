@@ -65,7 +65,7 @@ $(document).ready(function() {
 			var dataString = 'name='+ name + '&email=' + email + '&subject=' + subject + '&message=' + message + '&ajax=1';
 			$.ajax({
 				type: "POST",
-				url: "php/contact.php",
+				url: "/portfolio/2013/php/contact.php",
 				data: dataString,
 				success: function(msg) {
 					// Check to see if the mail was successfully sent

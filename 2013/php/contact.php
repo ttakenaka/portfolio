@@ -5,7 +5,7 @@ if(empty($my_email_address) || empty($contact_form_version) || ($contact_form_ve
 	die('Error: The contact form has not been setup correctly.');
 } else {
 	if($contact_form_version=='php') {
-		$formLocation='contact.php';
+		$formLocation='/portfolio/2013/php/contact.php';
 	} else if($contact_form_version=='html') {
 		$formLocation='../home.html';
 	}
