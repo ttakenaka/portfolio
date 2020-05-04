@@ -214,11 +214,11 @@
 	#ajaxwrapper #loader.errorMessage p{display:none;padding-top:16px;}
 
 		/*odd*/
-		.page.odd #ajaxwrapper #loader{background:url(/portfolio/2013/images/project-loader-dark.gif) center  -40px no-repeat;}
+		.page.odd #ajaxwrapper #loader{background:url(/portfolio/2013/images/loader-dark.gif) center  -40px no-repeat;}
 		#ajaxwrapper #loader.errorMessage p{color: #666 !important;}
 
 		/*even*/
-		.page.even #ajaxwrapper #loader{background:url(/portfolio/2013/images/project-loader-light.gif)  center  -40px no-repeat;}
+		.page.even #ajaxwrapper #loader{background:url(/portfolio/2013/images/loader-light.gif)  center  -40px no-repeat;}
 		#ajaxwrapper #loader.errorMessage p{color: #fff !important;}
 
 
