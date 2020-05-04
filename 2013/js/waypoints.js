@@ -11,7 +11,7 @@ Waypoints is a small jQuery plugin that makes it easy to execute a function
 whenever you scroll to an element.
 
 GitHub Repository: https://github.com/imakewebthings/jquery-waypoints
-Documentation and Examples: http://imakewebthings.github.com/jquery-waypoints
+Documentation and Examples: https://imakewebthings.github.com/jquery-waypoints
 
 Changelog:
 	v1.1.7
@@ -653,7 +653,7 @@ Support:
 		throttled. This value is the rate-limit in milliseconds between resize
 		refreshes. For more information on throttling, check out Ben Alman’s
 		throttle / debounce plugin.
-		http://benalman.com/projects/jquery-throttle-debounce-plugin/
+		https://benalman.com/projects/jquery-throttle-debounce-plugin/
 		
 	scrollThrottle
 		number
@@ -662,7 +662,7 @@ Support:
 		scroll event is throttled. This value is the rate-limit in milliseconds
 		between scroll checks. For more information on throttling, check out Ben
 		Alman’s throttle / debounce plugin.
-		http://benalman.com/projects/jquery-throttle-debounce-plugin/
+		https://benalman.com/projects/jquery-throttle-debounce-plugin/
 	*/
 	$[wps].settings = {
 		resizeThrottle: 200,

@@ -4,10 +4,10 @@
  * Copyright (c) 2007-2009 Mika Tuupola
  *
  * Licensed under the MIT license:
- *   http://www.opensource.org/licenses/mit-license.php
+ *   https://www.opensource.org/licenses/mit-license.php
  *
  * Project home:
- *   http://www.appelsiini.net/projects/lazyload
+ *   https://www.appelsiini.net/projects/lazyload
  *
  * Version:  1.5.1
  *
@@ -16,7 +16,7 @@
 
     $.fn.lazyload = function(options) {
         // $.offset.top() reports wrong position after scroll
-        // http://bugs.jquery.com/ticket/6446
+        // https://bugs.jquery.com/ticket/6446
         var fixedOffset = function (e) {
             var result = $(e).offset();
             if ( /; CPU.*OS (?:3_2|4_0)/i.test(navigator.userAgent)

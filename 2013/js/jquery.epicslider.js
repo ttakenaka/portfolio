@@ -30,7 +30,7 @@
 				startSlide : 0,									//Integer: starts at 0
 				shuffleSlides: false,							//Boolean: add pattern or not
 				stack:false,									//Boolean: whether slides should stack
-				easing : 'easeInOutQuint', 						//String: easing method - see http://jqueryui.com/demos/effect/easing.html
+				easing : 'easeInOutQuint', 						//String: easing method - see https://jqueryui.com/demos/effect/easing.html
 				fx : 'leftToRight',								//String: none, fade, leftToRight, topToBottom 
 				fxmobile : 'leftToRight',						//String: mobile effect -  none, fade, leftToRight, topToBottom 
 				pattern :true,									//Boolean: use overlay pattern or not
@@ -190,7 +190,7 @@
 						options.fx = options.fxmobile;
 						
 						//call reduced version of jquery mobile swipe actions 
-						//from http://www.codingjack.com/playground/swipe/ - MIT/GPLv.2
+						//from https://www.codingjack.com/playground/swipe/ - MIT/GPLv.2
 						
 						$(slider).touchSwipe(callback);
 						

@@ -1,16 +1,16 @@
 /*
 * jQuery Mobile Framework 1.1.0 db342b1f315c282692791aa870455901fdb46a55
-* http://jquerymobile.com
+* https://jquerymobile.com
 *
 * Copyright 2011 (c) jQuery Project
 * Dual licensed under the MIT or GPL Version 2 licenses.
-* http://jquery.org/license
+* https://jquery.org/license
 *
 */
 
 /*
 * Stripped the touch swipe logic from jQuery Mobile and turned it into this plugin
-* Copyright 2012 (c) CodingJack - http://codecanyon.net/user/CodingJack
+* Copyright 2012 (c) CodingJack - https://codecanyon.net/user/CodingJack
 * Dual licensed under the MIT or GPL Version 2 licenses.
 */
 
