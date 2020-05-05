@@ -84,14 +84,14 @@ $(document).ready(function() {
 							$('#message').val('');
 						}
 					} else {
-						$('#msg').html('There was an error sending your email. Please try again.').addClass('errorMsg');
+						$('#msg').html('There was an error sending your email. Please try to mail t.t.design110@gmail.com .').addClass('errorMsg');
 						$('.contactForm .submit').attr("disabled", "");
 					}
 					// Activate the submit button
 					$('.contactForm .submit').removeAttr("disabled");
 				},
 				error: function(ob,errStr) {
-					$('#msg').html('There was an error sending your email. Please try again.').addClass('errorMsg');
+					$('#msg').html('There was an error sending your email. Please try to mail t.t.design110@gmail.com .').addClass('errorMsg');
 					//Activate the submit button
 					$('.contactForm .submit').removeAttr("disabled");
 				}
