@@ -4,29 +4,15 @@
  Header Layout
 --------------------------------------------------------*/
 
-#area_header{}
-
-#header
-{
-	height:60px;
-	position:relative;
+#area_header {}
+#header {}
+#header h1 {
+	padding: 20px 0;
 }
-#header h1
-{
-	position:absolute;
-	top:20px;
-	left:0;
+#header h1 img {
+	width: 100%;
+	max-width: 359px;
 }
-
-
-#header_l
-{
-}
-
-#header_r
-{
-}
-
-#header_menu
-{
-}
+#header_l {}
+#header_r {}
+#header_menu {}

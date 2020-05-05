@@ -7,39 +7,35 @@
 /*-----------------------------------Navigation Style
 */
 #gnavi{
-	width:150px;
 	margin:0;
 	padding:0 10px 10px 0;
-	position:absolute;
-	color:;
+}
+@media all and (min-width: 768px)  {
+	#gnavi {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 150px;
+		        flex: 0 0 150px;
+	}
 }
 #gnavi ul li{
 	display:block;
-	padding:0 12px 3px 0;
-	height:20px;
-	float:left;
+	padding: 0;
 }
-#gnavi ul li a{
+#gnavi ul li>*{
 	display:block;
-	width:140px;
 	padding:3px;
 	background:none repeat scroll 0 0 #FFF;
 	color:#B23232;
 	font-weight:nomal;
+	text-decoration:none;
 }
-#gnavi ul li a:hover{
-	display:block;
-	width:140px;
-	padding:3px;
-	background:none repeat scroll 0 0 #C97070;
+#gnavi ul li>*:hover{
+	background-color: #C97070;
 	color:#ECCCCC;
 	text-decoration:none;
 }
-#gnavi ul li #btn_on{
-	display:block;
-	height:20px;
-	float:left;
-	background:none repeat scroll 0 0 #C97070;
+#gnavi ul li>#btn_on{
+	background-color: #C97070;
 	color:#ECCCCC;
 	font-weight:bold;
 	text-decoration:none;

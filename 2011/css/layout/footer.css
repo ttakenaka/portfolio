@@ -1,0 +1,20 @@
+@charset "Shift_JIS";
+
+#footer {
+    margin: 0 auto;
+    padding: 30px;
+}
+@media all and (min-width: 768px)  {
+	#footer {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+}
+
+#footer_r {
+	margin-left: auto;
+}

@@ -23,8 +23,14 @@ body {
 }
 #content
 {
-	min-height:600px;
-	display:block;
+	min-height: calc(100vh - 60px - 73px);
+}
+@media all and (min-width: 768px)  {
+	#content {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
 }
 #content_form
 {
@@ -42,9 +48,15 @@ body {
 #container{
 	text-align:left;
 	margin:0 auto;
-	padding:0 0 0 30px;
+	padding:0 15px;
 }
-
+@media all and (min-width: 768px)  {
+	#container{
+		text-align:left;
+		margin:0 auto;
+		padding:0 30px;
+	}
+}
 #wrapper_sub
 {
 	width:auto;

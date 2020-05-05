@@ -12,10 +12,12 @@
 
 #column
 {
-	position:absolute;
-	left:200px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 	margin:0;
-	*margin:0 0 0 3px;
 	padding-bottom:20px;
 }
 
@@ -24,7 +26,6 @@
 	width:606px;
 	float:left;
 	padding:6px 25px 0px 27px;
-	*padding:6px 10px 5px 17px;
 }
 
 
@@ -37,39 +38,40 @@
 /* Works ---------------------------------------------*/
 
 .entry{
-	float:left;
-	height:165px;
-	width:184px;
-	position:relative;
-	margin:0 0 1em;
+	width: calc(50% - 10px);
+	margin-right: 10px;
+	margin-bottom: 2em;
 }
-
-span.img{
-	clear:both;
-	display:block!important;
-	height:122px;
-	margin:0 30px 8px 0;
+@media all and (min-width: 768px)  {
+	.entry{
+		width: calc(25% - 30px);
+		margin-right: 30px;
+	}
+}
+.entry .img{
+	display:block;
 	border:1px solid #DDD
 }
-span.img a:link,span.img a:visited{
+.entry .img a:link,
+.entry .img a:visited{
 	border:1px solid #FFF;
-	display:block!important;
-	height:120px;
+	display:block;
 	overflow:hidden;
 	background:#f2f2f2;
 }
-span.img a:hover,span.img a:active{
+.entry .img a:hover,
+.entry .img a:active{
 	border:1px solid #720049;
-	display:block!important;
-	height:120px;
+	display:block;
 	overflow:hidden;
 }
-span.img a img{
-	display:block!important;
+.entry .img a img{
+	display:block;
+	margin: 0 auto;
+	width: 100%;
 }
 .entry p.entry_title{
+	margin-top: 8px;
 	font-size:0.77em;
 	line-height:1.5;
-	margin-bottom:1em;
-	width:155px;
 }
