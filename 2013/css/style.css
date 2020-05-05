@@ -24,7 +24,7 @@
 --------------------------------------------------------*/
 
 
-	body{background:#FFF;font:21px/1.8 "游ゴシック体", "Yu Gothic", YuGothic,Arial, Helvetica, sans-serif;}
+	body{background:#FFF;font:12px/1.8 "游ゴシック体", "Yu Gothic", YuGothic,Arial, Helvetica, sans-serif;}
 
 
 /*--------------------------------------------------------
@@ -193,7 +193,7 @@
 		.folio-thumb a{width:100%;float:left;}
 		.folio-thumb.last{margin-right:0;}
 		.folio-thumb, .folio-thumb a, .folio-thumb a img,.folio-thumb a .folio-thumb-rollover {-webkit-border-radius: 200px; -moz-border-radius: 200px; border-radius:200px; overflow:hidden;}
-		.folio-thumb a img{position:relative;z-index:-1;max-width: 100%;margin: 0 auto;-ms-interpolation-mode: bicubic;overflow:hidden;vertical-align: baseline;}
+		.folio-thumb a img{display: block!important; position:relative;z-index:-1;max-width: 100%;margin: 0 auto;-ms-interpolation-mode: bicubic;overflow:hidden;vertical-align: baseline;}
 		.folio-thumb a .folio-thumb-rollover{position:absolute;display:table;width:100%;height:100%;background: #ff2778;/*ie8 fallback*/ background: rgba(255,39,120,0.9); top:0;opacity:0; }
 		.folio-thumb a .folio-thumb-rollover .thumbInfo{display: table-cell; vertical-align: middle;width:100%;font: 18px 'Open Sans', sans-serif; font-weight:bold;color:#fff; text-align:center;}
 
@@ -295,7 +295,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 			.blog-post-content .blog-post-meta ul li a:hover{color:#ff005a;text-decoration:underline;}
 			.blog-post-content h2{font-size: 30px; font-weight: normal; line-height: 1.5; margin-top:30px; margin-bottom:30px;}
 			.blog-post-content h3{font-size: 42px; line-height: 1.2; word-break: break-all;}
-			.blog-post-content p{margin-bottom:30px;}
+			.blog-post-content p{margin-bottom:30px;font-size: 21px;}
 			.blog-post-content a{word-break: break-all; }
 			.blog-post-content hr{margin-bottom:30px;border:1px solid #e7e7e7;border-bottom:none;clear:both;}
 			.blog-post-content b{font-weight: bold;}
@@ -489,7 +489,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	.round-thumb{position:relative;}
 	.round-thumb a,.round-thumb span{width:100%;float:left;}
 	.round-thumb, .round-thumb a,.round-thumb span, .round-thumb a img,.round-thumb span img, .round-thumb a .thumb-rollover{max-width:250px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden;}
-	.round-thumb a img,.round-thumb span img{position:relative;z-index:-1;max-width: 100%;margin: 0 auto;-ms-interpolation-mode: bicubic;overflow:hidden;vertical-align: baseline;}
+	.round-thumb a img,.round-thumb span img{display: block!important;position:relative;z-index:-1;max-width: 100%;margin: 0 auto;-ms-interpolation-mode: bicubic;overflow:hidden;vertical-align: baseline;}
 	.round-thumb a .thumb-rollover{position:absolute;display:table;width:100%;height:100%;background: #ff2778;/*ie8 fallback*/ background: rgba(255,39,120,0.9);top:0;opacity:0;}
 	.round-thumb a .thumb-rollover .thumbInfo{display: table-cell; vertical-align: middle;width:100%;font: 18px 'Open Sans', sans-serif; font-weight:bold;color:#fff; text-align:center;}
 
