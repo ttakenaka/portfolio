@@ -376,21 +376,7 @@
 
             <div class="column_two_thirds last">
                 <h4>Drop <span>a</span> line</h4>
-                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-                    <script type="text/javascript">
-                        (function(){
-                            emailjs.init("user_LRtEzy8KlcWK04QhDD928");
-                        })();
-                    </script>
-                    <script type="text/javascript">
-                        window.onload = function() {
-                            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                                event.preventDefault();
-                                emailjs.sendForm('contact_service', 'contact_form', this);
-                            });
-                        }
-                    </script>
-                    <form method="post" class="contactForm form" id="contact-form">
+                    <form action="mailto:t.t.design110@gmail.com" method="post" class="contactForm form" id="contact-form" enctype="text/plain">
                         <p><input type="text" name="name" class="required" id="name" value="Your Name" /></p>
                         <p><input type="text" name="email" class="required" id="email" value="E-mail" /></p>
                         <p><input type="text" name="subject" id="subject" value="Subject" /></p>
