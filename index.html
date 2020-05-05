@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta name="robots" content="index,follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -376,40 +376,40 @@
 
             <div class="column_two_thirds last">
                 <h4>Drop <span>a</span> line</h4>
-                  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-                  <script type="text/javascript">
-                      (function(){
-                          emailjs.init("user_LRtEzy8KlcWK04QhDD928");
-                      })();
-                  </script>
-                  <script type="text/javascript">
-                      window.onload = function() {
-                          document.getElementById('contact-form').addEventListener('submit', function(event) {
-                              event.preventDefault();
-                              emailjs.sendForm('contact_service', 'contact_form', this);
-                          });
-                      }
-                  </script>
-                  <form method="post" class="contactForm form" id="contact-form">
-                      <p><input type="text" name="name" class="required" id="name" value="Your Name" /></p>
-                      <p><input type="text" name="email" class="required" id="email" value="E-mail" /></p>
-                      <p><input type="text" name="subject" id="subject" value="Subject" /></p>
-                      <textarea  class="required" name="message" id="message" rows="" cols="">Message</textarea>
-                      <input type="submit" value="送信" class="submit submitTheme" id="submitform" />
-           					  <span id="msg">* = 必須項目</span>
-                 </form>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+                    <script type="text/javascript">
+                        (function(){
+                            emailjs.init("user_LRtEzy8KlcWK04QhDD928");
+                        })();
+                    </script>
+                    <script type="text/javascript">
+                        window.onload = function() {
+                            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                                event.preventDefault();
+                                emailjs.sendForm('contact_service', 'contact_form', this);
+                            });
+                        }
+                    </script>
+                    <form method="post" class="contactForm form" id="contact-form">
+                        <p><input type="text" name="name" class="required" id="name" value="Your Name" /></p>
+                        <p><input type="text" name="email" class="required" id="email" value="E-mail" /></p>
+                        <p><input type="text" name="subject" id="subject" value="Subject" /></p>
+                        <textarea  class="required" name="message" id="message" rows="" cols="">Message</textarea>
+                        <input type="submit" value="送信" class="submit submitTheme" id="submitform" />
+                        <span id="msg">* = 必須項目</span>
+                    </form>
 <!--
-                 <form role="form" action="/php/mail.php" method="post">
-                    <div class="form-group">
-                      <label for="exampleInputName1">Your Name</label>
-                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name" name="name" required>
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required>
-                      <label for="exampleInputText1">Message</label>
-                      <textarea class="form-control" rows="3" name="message" required></textarea>
-                    </div>
-                    <button type="submit" value="SEND MESSAGE" class="btn btn-default">Submit</button>
-                </form>
+                    <form role="form" action="/php/mail.php" method="post">
+                        <div class="form-group">
+                            <label for="exampleInputName1">Your Name</label>
+                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name" name="name" required>
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required>
+                            <label for="exampleInputText1">Message</label>
+                            <textarea class="form-control" rows="3" name="message" required></textarea>
+                        </div>
+                        <button type="submit" value="SEND MESSAGE" class="btn btn-default">Submit</button>
+                    </form>
 -->
           </div>
    	   </div>
