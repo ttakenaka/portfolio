@@ -10,7 +10,7 @@
 	/*----------------------------
 	ii.-- Header
 	-----------------------------*/
-	
+
 		/* main menu
 		----------------------------*/
 
@@ -22,11 +22,11 @@
 	/*----------------------------
 	i.-- Page
 	-----------------------------*/
-	
+
 	.homepage,.page{position: inherit;}
 	.page .content{max-width:870px;margin:auto;position:relative;}
 	.page .teaser{background-attachment:scroll; background-position:center center;}
-	
+
 	/*----------------------------
 	ii.-- Header
 	-----------------------------*/
@@ -37,28 +37,28 @@
 	/*inner pages*/
 	.header {display:block;}
 	.header .inner{max-width:870px;margin:auto;}
-	
-	
+
+
 		/* main menu
 		----------------------------*/
 
 		.header ul.navigation{display:table !important;}
-	
+
 
 	/*----------------------------
 	ii.-- Content
-	-----------------------------*/	
+	-----------------------------*/
 
 	/*portfolio
 	----------------------------*/
 
 	/*navigation*/
 	#folio-navigation{width:1010px;height:40px;position:absolute;margin:auto; top:50%;left:50%;margin:-20px 0 0 -505px;}
-	
+
 	/*project-display*/
 	#ajaxpage{width:870px;}
 	.project-display {width:600px;}
-	
+
 		/*media & info*/
 		.project-display img, .project-display .flexslider,.project-display .flexslider img{width:600px !important;/*height:422px!important;*/}
 		.project-display .video{width:600px !important;height:337px !important;}
@@ -66,21 +66,21 @@
 		.project-display.fullwidth img, .project-display.fullwidth .flexslider, .project-display.fullwidth .flexslider img{width:870px !important;height:421px !important;}
 		.project-display.fullwidth .video{width:870px !important;height:489px !important;}
 
-	
+
 	/*blog
 	----------------------------*/
-	
+
 	.blog-inner-left{}
 	.blog-inner-right{}
 		.blog-post-content, .blog-post-content .blog-post-media{width:790px;}
 		.blog-post-content .blog-post-media .video{width:790px !important;height:290px !important;}
 
-	
+
 	/*epic slider nav
 	-----------------------------*/
-	
+
 	.epicSlider.theme-default #epic-navigation{position:absolute;}
-	
+
 	/*positioning & widths*/
 	.epicSlider.theme-default .epic-caption{position:absolute;}
 
@@ -90,10 +90,10 @@
 
 @media only screen and (max-width: 768px) {
 	body{font-size:14px;}
-	
+
 	/* responsive tabs */
 	.tabs .tabs_nav, .tabs .tabs_nav li { width:100%; }
-	
+
 	/* responsive pricing tables */
 	.pricing_table .pricing_table_col,
 	.pricing_table.pricing_table_two_cols .pricing_table_col,
@@ -121,46 +121,46 @@
 	/*----------------------------
 	i.-- Page
 	-----------------------------*/
-	
+
 	.homepage,.page{position: inherit;}
 	.page .content{max-width:640px;padding-bottom:100px;}
 	.page .teaser{background-attachment:scroll; background-position:center center;}
-		
+
 	/*----------------------------
 	ii.-- Header
 	-----------------------------*/
-	
+
 	/*homepage*/
 	.logo-homepage {background-attachment: inherit; position:absolute;}
 
 	/*inner pages*/
 	.header {height:auto;display:block;}
 	.header .inner{max-width:930px;margin:auto;}
-	.header .logo-container{position:relative;left:50%;margin-left:-57.5px; float:auto;margin-bottom:10px;}
-	
+	.header .logo-container{position:relative;left:0;float:none;text-align:center;}
+
 		/* main menu
 		----------------------------*/
 
 		.header .inner ul.navigation{width:100%; text-align: center;margin:0px;padding-bottom:8px;display:table !important;}
-		.header .inner ul.navigation li{ float: none !important; display: inline;}	
+		.header .inner ul.navigation li{ float: none !important; display: inline;}
 
-		
+
 
 	/*----------------------------
 	ii.-- Content
-	-----------------------------*/	
-	
+	-----------------------------*/
+
 	/*about
 	----------------------------*/
-	
+
 	/*service breakdown*/
 	.chart-container ul.chart li div{font-size:25px !important;}
-	
+
 	/*teaser
 	----------------------------*/
 	.teaser.fixed{background-attachment:scroll;}
 	.teaser .info-container .info .info-inner{max-width:640px; margin:auto;}
-	.teaser .info-container .video{width:640px !important;height:360px !important;}	
+	.teaser .info-container .video{width:640px !important;height:360px !important;}
 	.teaser .info-container .info .info-inner .video{width:307px !important;height:172px !important;}
 
 	/*portfolio
@@ -173,28 +173,28 @@
 	#folio-navigation ul li#closeProjectMobile{display:block;}
 	#folio-navigation ul li#closeProjectMobile a{position:relative; left:50%;margin-left:-19px;}
 	#closeProject{display:none;}
-	
+
 	/*projects*/
 	#ajaxwrapper #loader{margin-top: -7px;}
-	
+
 	/*project-display*/
 	#ajaxpage{width:640px;}
 	#ajax-content-outer{margin-top:30px;}
-	
+
 		/*media & info*/
 		.project-display img, .project-display .flexslider{width:640px !important;/*height:450px !important;*/}
 		.project-display .video,.project-display.fullwidth .video{width:640px !important;height:360px !important;}
 		.project-info{width:100%;}
 		.project-display.fullwidth img,.project-display.fullwidth .flexslider, .project-display.fullwidth .flexslider img{width:640px !important;height:310px !important;}
 
-	
+
 	/*thumb-structure*/
 	.folio-thumb-container{width:22%;position:relative;margin:0 0 18px 0;float:left;border-radius:200px;padding:0 1.5% }
-	
-	
+
+
 	/*blog
 	----------------------------*/
-	
+
 	.blog-inner-left{width:96%;margin-right:4%;}
 	.blog-inner-right{width:96%;}
 		.blog-post-info{width:100%; margin: 0 0 10px 0;}
@@ -204,28 +204,28 @@
 		.blog-post-content .blog-post-media .video{width:418px !important;height:234px !important;}
 	#sidebar.left,#sidebar.right{width:30.6666%;}
 
-	
-	
-	
+
+
+
 	/*contact
-	----------------------------*/	
-	
+	----------------------------*/
+
 		/*form elements
-		----------------------------*/	
+		----------------------------*/
 		textarea {width:100%;}
 
 
 	/*epic slider nav
 	-----------------------------*/
-	
+
 	.epicSlider.theme-default #epic-navigation{position:absolute;}
-	
-	
+
+
 	/*positioning & widths*/
 	.epicSlider.theme-default .epic-caption{position:absolute;}
-	
-	
-	
+
+
+
 
 
 }
@@ -241,23 +241,23 @@
 	/*----------------------------
 	i.-- Page
 	-----------------------------*/
-	
+
 	.homepage,.page{position: inherit;}
 	.page .content{max-width:420px;padding-bottom:100px;}
 	.page .teaser{background-attachment:scroll; background-position:center center;}
-		
+
 	/*----------------------------
 	ii.-- Header
 	-----------------------------*/
-	
+
 	/*homepage*/
 	.logo-homepage{width:150px;height:150px;margin:-75px 0 0 -75px;position:absolute;background-attachment:inherit;}
 
 	/*inner pages*/
 	.header {height:auto;display:block;}
 	.header .inner{max-width:930px;margin:auto;}
-	.header .logo-container{position:relative;left:50%;margin-left:-57.5px; float:auto;}
-	
+	.header .logo-container{position:relative;left:0;float:none;text-align:center;}
+
 		/* main menu
 		----------------------------*/
 
@@ -266,38 +266,38 @@
 		.header .inner ul.navigation li:first-child{margin-top:0px;}
 		.header .inner ul.navigation li:last-child{padding-right:10px;}
 		.page.odd .header .inner ul.navigation li a.active,.page.even .header .inner ul.navigation li a.active{padding:1px 10px;}
-	
-	
+
+
 	/* mobile menu toggle
-	----------------------------*/	
-		
+	----------------------------*/
+
 	.header .inner .mobileMenuToggle{display:block;}
 
 	/*----------------------------
 	ii.-- Content
-	-----------------------------*/	
-	
+	-----------------------------*/
+
 	/*section title + teasers
 	----------------------------*/
-	
+
 	.section-title{padding-top:50px;}
-	
-	
+
+
 	/*about
 	----------------------------*/
-	
+
 	/*service breakdown*/
 	.chart-container ul.chart li{float:none !important; margin:auto; text-align:center; margin-bottom:15px;}
 	.chart-container ul.chart li div{font-size:25px !important;-webkit-box-shadow:inset 0 0 0 #fff;-moz-box-shadow:inset 0 0 0 #fff;box-shadow:inset  0 0 0 #fff;}
-	
-	
+
+
 	/*teaser
 	----------------------------*/
 	.teaser.fixed{background-attachment:scroll;}
 	.teaser .info-container .info .info-inner{max-width:420px; margin:auto;}
 	.teaser .info-container .info blockquote{width:auto !important;}
 	.teaser .info-container .info .info-inner .column_one_half{width:100%;}
-	.teaser .info-container .video{width:420px !important;height:236px !important;}	
+	.teaser .info-container .video{width:420px !important;height:236px !important;}
 	.teaser .info-container .info .info-inner .video{width:307px !important;height:172px !important; margin:auto;}
 
 
@@ -311,27 +311,27 @@
 	#folio-navigation ul li#closeProjectMobile{display:block;}
 	#folio-navigation ul li#closeProjectMobile a{position:relative; left:50%;margin-left:-19px;}
 	#closeProject{display:none;}
-	
+
 	/*projects*/
 	#ajaxwrapper #loader{margin-top: -7px;}
-	
+
 	/*project-display*/
 	#ajaxpage{width:420px;}
 	#ajax-content-outer{margin-top:30px;}
-	
+
 		/*media & info*/
 		.project-display img, .project-display .flexslider{width:420px !important;/*height:295px !important;*/}
 		.project-display .video,.project-display.fullwidth .video{width:420px !important;height:236px !important;}
 		.project-info{width:100%;}
 		.project-display.fullwidth img, .project-display.fullwidth .flexslider, .project-display.fullwidth .flexslider img{width:420px !important;height:203px !important;}
-	
-	
+
+
 	/*thumb-structure*/
 	.folio-thumb-container{width:30.666666%;position:relative;margin:0 0 18px 0;float:left;border-radius:200px;padding:0 1.33% }
-	
+
 	/*blog
 	----------------------------*/
-	
+
 	.blog-inner-left{width:100%;}
 	.blog-inner-right{width:100%;}
 		.blog-post-content{width:100%;}
@@ -342,22 +342,22 @@
 		.blog-post-content .blog-post-media .video{width:420px !important;height:234px !important;}
 	#sidebar.left,#sidebar.right{width:100%; float:none;}
 	.response .response{margin:30px 0 0 0;}
-	
+
 	/*odd*/
 	.page.odd .blog-pagination, .page.odd .blog-post-navigation{border-bottom:1px solid #e2e2e2; padding-bottom:20px; overflow:hidden;}
-	
+
 	/*even*/
 	.page.even .blog-pagination, .page.even .blog-post-navigation{border-bottom:1px solid #444; padding-bottom:20px; overflow:hidden;}
-		
-	
+
+
 	/*contact
-	----------------------------*/	
-	
+	----------------------------*/
+
 		/*form elements
-		----------------------------*/	
+		----------------------------*/
 		input[type=text]{width:100%;}
 		textarea {width:100%;}
-		
+
 
 	/*--------------------------------------------------------
 	TYPOGRAPHY & LINKS
@@ -377,21 +377,21 @@
 	h4{font-size:26px;line-height:26px;}
 	h5{font-size:24px;line-height:24px;}
 	h6{font-size:22px;line-height:22px;}
-	
-	
+
+
 	/*epic slider nav
 	-----------------------------*/
-	
+
 	.epicSlider.theme-default #epic-navigation{position:absolute;bottom:10px;left:50%;margin-left:-41px; width:82px;height:40px;}
 	.epicSlider.theme-default #epic-navigation.allcontrols{width:124px;left:50%;margin-left:-65px; } /*sum of all three buttons*/
-	
+
 	/*positioning & widths*/
 	.epicSlider.theme-default .epic-caption{position:absolute;}
 	.epicSlider.theme-default .epic-caption.topLeft,.epicSlider.theme-default .epic-caption.topRight,.epicSlider.theme-default .epic-caption.bottomLeft,.epicSlider.theme-default .epic-caption.bottomRight{top:auto;left:auto;bottom:auto;right:auto; text-align:center !important;}
-		
+
 	/*background*/
 	.epicSlider.theme-default .epic-caption,.epicSlider.theme-default .epic-caption.centered{position:absolute;width:100% !important;height:auto;background:#000;/*ie fallback*/background:rgba(0,0,0,0.8);padding:10px 0; left:0;bottom:75px !important; text-align:center;}
-	
+
 	/*target specific*/
 	.epicSlider.theme-default .epic-caption.descrete div{background:none;margin-bottom:0px;padding:0;margin:auto;}
 	.epicSlider.theme-default .epic-caption.epic-impact h1 span,.epicSlider.theme-default .epic-caption.epic-impact h2 span,.epicSlider.theme-default .epic-caption.epic-impact h3 span,.epicSlider.theme-default .epic-caption.epic-impact h4 span,.epicSlider.theme-default .epic-caption.epic-impact h5 span,.epicSlider.theme-default .epic-caption.epic-impact h6 span, .epicSlider.theme-default .epic-caption.epic-impact a span,.epicSlider.theme-default .epic-caption.epic-impact a:hover span{padding: 0;background:none;float: none;}
@@ -401,8 +401,8 @@
 	.epicSlider.theme-default .epic-caption.descrete div h1,.epicSlider.theme-default .epic-caption.descrete div h2,.epicSlider.theme-default .epic-caption.descrete div h3,.epicSlider.theme-default .epic-caption.descrete div h4,.epicSlider.theme-default .epic-caption.descrete div h5,.epicSlider.theme-default .epic-caption.descrete div h6{font-size:16px;line-height:16px; position:relative;}
 	.epicSlider.theme-default .epic-caption.epic-impact h1,.epicSlider.theme-default .epic-caption.epic-impact h2,.epicSlider.theme-default .epic-caption.epic-impact h3,.epicSlider.theme-default .epic-caption.epic-impact h4,.epicSlider.theme-default .epic-caption.epic-impact h5,.epicSlider.theme-default .epic-caption.epic-impact h6{font-size:12px;line-height:12px;position:relative;}
 	.epicSlider.theme-default .epic-caption.descrete div p{margin-top:5px;}
-		
-		
+
+
 	/*accordions and tabs*/
 	.accordion div.video, .accordion div.video .featured_flowplayer,
 	.tabs div.video, .tabs div.video .featured_flowplayer  { clear:both; width:380px !important; height:215px !important; }
@@ -423,7 +423,7 @@
 	/*----------------------------
 	i.-- Page
 	-----------------------------*/
-	
+
 	.homepage,.page{position: inherit;}
 	.page .content{padding: 0 15px 100px;}
 	.page .teaser{background-attachment:scroll; background-position:center center;}
@@ -431,15 +431,15 @@
 	/*----------------------------
 	ii.-- Header
 	-----------------------------*/
-	
+
 	/*homepage*/
 	.logo-homepage{width:150px;height:150px;margin:-75px 0 0 -75px;position:absolute;background-attachment:inherit;}
-	
+
 	/*inner pages*/
 	.header {height:auto;display:block;}
 	.header .inner{max-width:930px;margin:auto;}
-	.header .logo-container{position:relative;left:50%;margin-left:-57.5px; float:auto;}
-	
+	.header .logo-container{position:relative;left:0;float:none;text-align:center;}
+
 		/* main menu
 		----------------------------*/
 
@@ -448,42 +448,42 @@
 		.header .inner ul.navigation li:first-child{margin-top:0px;}
 		.header .inner ul.navigation li:last-child{padding-right:10px;}
 		.page.odd .header .inner ul.navigation li a.active,.page.even .header .inner ul.navigation li a.active{padding:1px 10px;}
-	
-	
+
+
 	/* mobile menu toggle
-	----------------------------*/	
-		
+	----------------------------*/
+
 	.header .inner .mobileMenuToggle{display:block;}
 
-		
+
 	/*----------------------------
 	iii.-- Content
-	-----------------------------*/	
-	
+	-----------------------------*/
+
 	/*section title + teasers
 	----------------------------*/
-	
+
 	.section-title{padding-top:50px;}
-	
-	
+
+
 	/*about
 	----------------------------*/
-	
+
 	/*service breakdown*/
 	.chart-container ul.chart li{float:none !important; margin:auto; text-align:center; margin-bottom:15px;}
 	.chart-container ul.chart li div{font-size:25px !important;-webkit-box-shadow:inset 0 0 0 #fff;-moz-box-shadow:inset 0 0 0 #fff;box-shadow:inset  0 0 0 #fff;}
-	
+
 	/*teaser
 	----------------------------*/
 	.teaser.fixed{background-attachment:scroll;}
 	.teaser .info-container .info .info-inner{max-width:290px; margin:auto;}
 	.teaser .info-container .info blockquote{width:auto !important;}
-	.teaser .info-container .video{width:290px !important;height:163px !important;}	
+	.teaser .info-container .video{width:290px !important;height:163px !important;}
 	.teaser .info-container .info .info-inner .video{width:290px !important;height:163px !important; margin:auto;}
 
 	/*portfolio
 	----------------------------*/
-	
+
 	/*navigation*/
 	#folio-navigation{width:100%;position:relative; margin:0 auto; left:auto;}
 	#folio-navigation ul li{width:30.6666%; float:left;}
@@ -491,14 +491,14 @@
 	#folio-navigation ul li#closeProjectMobile{display:block;}
 	#folio-navigation ul li#closeProjectMobile a{position:relative; left:50%;margin-left:-19px;}
 	#closeProject{display:none;}
-	
+
 	/*projects*/
 	#ajaxwrapper #loader{margin-top: -7px; }
 
 	/*project-display*/
 	#ajaxpage{width:290px;}
 	#ajax-content-outer{margin-top:30px;}
-		
+
 		/*media & info*/
 		.project-display img, .project-display .flexslider{width:290px !important;
 		/*height:204px!important;*/}
@@ -506,16 +506,16 @@
 		.project-info{width:100%;}
 		.project-display.fullwidth img, .project-display.fullwidth .flexslider, .project-display.fullwidth .flexslider img{width:290px !important;height:140px !important;}
 		.flex-caption {line-height:20px !important;}
-	
-	
-	
+
+
+
 	/*thumb-structure*/
 	/*.folio-thumb-container{width:30.666666%;position:relative;margin:0 0 18px 0;float:left;border-radius:200px;padding:0 1.33% }*/
-	.folio-thumb-container{width:45%;position:relative;margin:0 0 18px 0;float:left;border-radius:200px;padding:0 2.5% }/*two cols*/	
-	
+	.folio-thumb-container{width:45%;position:relative;margin:0 0 18px 0;float:left;border-radius:200px;padding:0 2.5% }/*two cols*/
+
 	/*blog
 	----------------------------*/
-	
+
 	.blog-inner-left{width:100%;}
 	.blog-inner-right{width:100%;}
 		.blog-post-content{width:100%;}
@@ -527,24 +527,24 @@
 	.response, .response .response {margin:30px 0 0 0;}
 
 
-	
+
 	/*odd*/
 	.page.odd .blog-pagination, .page.odd .blog-post-navigation{border-bottom:1px solid #e2e2e2; padding-bottom:20px; overflow:hidden;}
-	
+
 	/*even*/
 	.page.even .blog-pagination, .page.even .blog-post-navigation{border-bottom:1px solid #444; padding-bottom:20px; overflow:hidden;}
-	
-	
-	
+
+
+
 	/*contact
-	----------------------------*/	
-	
+	----------------------------*/
+
 		/*form elements
-		----------------------------*/	
+		----------------------------*/
 		input[type=text]{width:100%;}
 		textarea {width:100%;}
 		input[type=submit]{width:100%;}
-	
+
 	/*--------------------------------------------------------
 	TYPOGRAPHY & LINKS
 	--------------------------------------------------------*/
@@ -569,17 +569,17 @@
 
 	/*epic slider nav
 	-----------------------------*/
-	
+
 	.epicSlider.theme-default #epic-navigation{position:absolute;bottom:10px;left:50%;margin-left:-41px; width:82px;height:40px;}
 	.epicSlider.theme-default #epic-navigation.allcontrols{width:124px;left:50%;margin-left:-65px; } /*sum of all three buttons*/
-	
+
 	/*positioning & widths*/
 	.epicSlider.theme-default .epic-caption{position:absolute;}
 	.epicSlider.theme-default .epic-caption.topLeft,.epicSlider.theme-default .epic-caption.topRight,.epicSlider.theme-default .epic-caption.bottomLeft,.epicSlider.theme-default .epic-caption.bottomRight{top:auto;left:auto;bottom:auto;right:auto; text-align:center !important;}
-		
+
 	/*background*/
 	.epicSlider.theme-default .epic-caption,.epicSlider.theme-default .epic-caption.centered{position:absolute;width:100% !important;height:auto;background:#000;/*ie fallback*/background:rgba(0,0,0,0.8);padding:10px 0; left:0;bottom:75px !important; text-align:center;}
-	
+
 	/*target specific*/
 	.epicSlider.theme-default .epic-caption.descrete div{background:none;margin-bottom:0px;padding:0;margin:auto;}
 	.epicSlider.theme-default .epic-caption.epic-impact h1 span,.epicSlider.theme-default .epic-caption.epic-impact h2 span,.epicSlider.theme-default .epic-caption.epic-impact h3 span,.epicSlider.theme-default .epic-caption.epic-impact h4 span,.epicSlider.theme-default .epic-caption.epic-impact h5 span,.epicSlider.theme-default .epic-caption.epic-impact h6 span, .epicSlider.theme-default .epic-caption.epic-impact a span,.epicSlider.theme-default .epic-caption.epic-impact a:hover span{padding: 0;background:none;float: none;}
@@ -589,14 +589,14 @@
 	.epicSlider.theme-default .epic-caption.descrete div h1,.epicSlider.theme-default .epic-caption.descrete div h2,.epicSlider.theme-default .epic-caption.descrete div h3,.epicSlider.theme-default .epic-caption.descrete div h4,.epicSlider.theme-default .epic-caption.descrete div h5,.epicSlider.theme-default .epic-caption.descrete div h6{font-size:16px;line-height:16px;position:relative;}
 	.epicSlider.theme-default .epic-caption.epic-impact h1,.epicSlider.theme-default .epic-caption.epic-impact h2,.epicSlider.theme-default .epic-caption.epic-impact h3,.epicSlider.theme-default .epic-caption.epic-impact h4,.epicSlider.theme-default .epic-caption.epic-impact h5,.epicSlider.theme-default .epic-caption.epic-impact h6{font-size:12px;line-height:12px;position:relative;}
 	.epicSlider.theme-default .epic-caption.descrete div p{margin-top:5px;}
-	
-	
-	
+
+
+
 	/*shortcodes*/
 	.column_one_half, .column_one_third,.column_one_fourth,.column_two_thirds, .column_three_fourths{width:100%;}
 		/*.last{margin-right:0 !important; clear:right;}*/
-	
-	
+
+
 	/*accordions and tabs*/
 	.accordion div.video, .accordion div.video .featured_flowplayer,
 	.tabs div.video, .tabs div.video .featured_flowplayer { clear:both; width:260px !important; height:146px !important; }
