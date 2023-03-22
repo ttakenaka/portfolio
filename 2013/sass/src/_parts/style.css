@@ -88,9 +88,17 @@
 		----------------------------*/
 
 		.header .inner .mobileMenuToggle{height:26px;width:100%;float:left;text-align:center;display:none;margin:19px auto 15px auto;}
-		.header .inner .mobileMenuToggle a,.header .mobileMenuToggle.open a{width:26px;height:26px;float:left;position:relative;left:50%; margin-left:-13px;}
-		.header .inner .mobileMenuToggle a{background:url(/portfolio/2013/images/mobileMenu-toggle.png) center 0 no-repeat;}
-		.header .inner .mobileMenuToggle.open a{background:url(/portfolio/2013/images/mobileMenu-toggle.png) center -26px no-repeat;}
+		.header .inner .mobileMenuToggle a,
+    .header .mobileMenuToggle.open a{width:26px;height:26px;float:left;position:relative;left:50%; margin-left:-13px;}
+		.header .inner .mobileMenuToggle a::before {
+      content: "+";
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+		.header .inner .mobileMenuToggle.open a::before{
+      content: "-";
+    }
 
 	/*----------------------------
 	iii.-- Content
