@@ -182,7 +182,7 @@ $(document).ready(function(){
 		function desktopMenu(){
 
 			//reveal
-			if ($(window).scrollTop() >= wh){
+			if ($(window).scrollTop() >= wh - 180 ){
 
 					if(!$('.header').is(':animated')) {
 

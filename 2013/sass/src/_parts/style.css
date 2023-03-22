@@ -87,12 +87,10 @@
 		/* mobile menu toggle
 		----------------------------*/
 
-		.header .inner .mobileMenuToggle{height:26px;width:100%;float:left;text-align:center;display:none;margin:19px auto 15px auto;}
-		.header .inner .mobileMenuToggle a,
-    .header .mobileMenuToggle.open a{width:26px;height:26px;float:left;position:relative;left:50%; margin-left:-13px;}
+		.header .inner .mobileMenuToggle{text-align:center;display:none;}
 		.header .inner .mobileMenuToggle a::before {
       content: "+";
-      color: #fff;
+      color: #1d1d1d;
       font-size: 24px;
       font-weight: bold;
     }
