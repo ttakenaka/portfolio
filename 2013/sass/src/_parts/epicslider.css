@@ -1,30 +1,30 @@
 
-	
+
 	/*html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, 	var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;}
-	
+
 	body{background:#fff;}*/
 
 
 	/*Wrapper
 	-------------------*/
-	
-	.epicSlider.slider-wrapper{width:100%;height:100%;position:absolute;overflow:hidden;top:0px;left:0px; background: url(../images/ui_epicslider/loader.gif) center center no-repeat;}
+
+	.epicSlider.slider-wrapper{width:100%;height:100%;position:absolute;overflow:hidden;top:0px;left:0px; background: url(../images/ui_epicslider/loader-light.gif) center center no-repeat;}
 
 	/*Overlay
 	-------------------*/
-	
+
 	.epicSlider.theme-default #epic-overlay{position:absolute;width:100%;height:100%;background:transparent url(../images/ui_epicslider/pattern.png) repeat top left;z-index:2;}
-	
+
 
 	/*Slides
 	-------------------*/
-	
+
 	.epicSlider.theme-default #slides img{position:absolute;top:0px;left:0px;width:100%;display:none;/* -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges;*/}
 
 
 	/*Navigation
 	-------------------*/
-	
+
 	.epicSlider.theme-default #epic-navigation{position:fixed;z-index:5;bottom:50px;right:65px;width:82px;height:40px;}
 	.epicSlider.theme-default #epic-navigation.allcontrols{width:124px;} /*sum of all three buttons*/
 	.epicSlider.theme-default #epic-navigation .nav-button{background-color:#000;/*fallback for iE8*/background:rgba(0,0,0,1);width:40px;height:40px;float:left;cursor:pointer;margin-right:2px;}
@@ -44,37 +44,37 @@
 
 	/*Logo
 	-------------------*/
-	
+
 	.epicSlider.theme-default .epic-graphic{display:none;}
-	
+
 
 	/*Caption - text
 	-------------------*/
-	
+
 	.epicSlider.theme-default .epic-caption{z-index:3;color:#fff; display:none;position:fixed; }
 	.epicSlider.theme-default .epic-caption h1,.epicSlider.theme-default .epic-caption h3, .epicSlider.theme-default .epic-caption p {color:#fff !important;}
-	
+
 	/*positions*/
-	
+
 		/*centered*/
 		.epicSlider.theme-default .epic-caption.centered{width:100%;height:100%; text-align:center;}
-		
+
 		/*left*/
 		.epicSlider.theme-default .epic-caption.topLeft{top:75px;left:65px; text-align:left; float:left;}
 		.epicSlider.theme-default .epic-caption.bottomLeft{bottom:100px;left:65px; text-align:left; float:left;}
-		
-	
+
+
 		/*right*/
 		.epicSlider.theme-default .epic-caption.topRight{top:75px;right:65px; left:auto; text-align:right; float:right;}
 		.epicSlider.theme-default .epic-caption.bottomRight{bottom:100px;right:65px; left:auto; text-align:right; float:right;}
-		
-		
-	
-	
+
+
+
+
 	/*caption type: descrete - 1  */
 	.epicSlider.theme-default .epic-caption.descrete div{padding:20px;background: url(../images/ie8-transparent-bkg.png);/*ie8 fallback*/background:rgba(0,0,0,0.8); font-family:Arial, Helvetica, sans-serif;line-height:16px; color:#fff; max-width:350px;}
 	.epicSlider.theme-default .epic-caption.descrete div h1,.epicSlider.theme-default .epic-caption.descrete div h2,.epicSlider.theme-default .epic-caption.descrete div h3,.epicSlider.theme-default .epic-caption.descrete div h4,.epicSlider.theme-default .epic-caption.descrete div h5,.epicSlider.theme-default .epic-caption.descrete div h6{margin-bottom:0;}
-	
+
 		/*sizes*/
 		.epicSlider.theme-default .epic-caption.descrete div h1{font-size:28px; line-height:28px;}
 		.epicSlider.theme-default .epic-caption.descrete div h2{font-size:25px; line-height:25px;}
@@ -83,12 +83,12 @@
 		.epicSlider.theme-default .epic-caption.descrete div h5{font-size:16px; line-height:16px;}
 		.epicSlider.theme-default .epic-caption.descrete div h6{font-size:13px; line-height:13px;}
 		.epicSlider.theme-default .epic-caption.descrete div p{margin:20px 0 0 0; font-size: 13px; line-height: 1.2;}
-	
-	
-	
+
+
+
 	/*caption type: impact - 1  */
 	.epicSlider.theme-default .epic-caption.epic-impact h1,.epicSlider.theme-default .epic-caption.epic-impact h2,.epicSlider.theme-default .epic-caption.epic-impact h3,.epicSlider.theme-default .epic-caption.epic-impact h4,.epicSlider.theme-default .epic-caption.epic-impact h5,.epicSlider.theme-default .epic-caption.epic-impact h6 {margin-bottom:3px; overflow:hidden;}
-	
+
 		/*sizes*/
 		.epicSlider.theme-default .epic-caption.epic-impact h1{font-size:60px;line-height:60px; position:relative;}
 		.epicSlider.theme-default .epic-caption.epic-impact h2{font-size:45px;line-height:45px;position:relative;}
@@ -97,25 +97,25 @@
 		.epicSlider.theme-default .epic-caption.epic-impact h5{font-size:20px;line-height:20px;position:relative;}
 		.epicSlider.theme-default .epic-caption.epic-impact h6{font-size:17px;line-height:17px;position:relative;}
 		.epicSlider.theme-default .epic-caption.epic-impact a {font-size:15px;line-height:15px;position:relative; color:#999;}
-	
+
 		/*font variation*/
 		.epicSlider.theme-default .epic-caption.epic-impact h1.variation,.epicSlider.theme-default .epic-caption.epic-impact h2.variation,.epicSlider.theme-default .epic-caption.epic-impact h3.variation,.epicSlider.theme-default .epic-caption.epic-impact h4.variation,.epicSlider.theme-default .epic-caption.epic-impact h5.variation,.epicSlider.theme-default .epic-caption.epic-impact h6.variation{font-weight:normal;font-family: 'Quicksand', sans-serif;}
-		
+
 		/*styling*/
 		.epicSlider.theme-default .epic-caption.epic-impact h1 span,.epicSlider.theme-default .epic-caption.epic-impact h2 span,.epicSlider.theme-default .epic-caption.epic-impact h3 span,.epicSlider.theme-default .epic-caption.epic-impact h4 span,.epicSlider.theme-default .epic-caption.epic-impact h5 span,.epicSlider.theme-default .epic-caption.epic-impact h6 span, .epicSlider.theme-default .epic-caption.epic-impact a span{padding:15px;background:rgb(0,0,0); font-family:inherit;float:inherit; font-weight:inherit;}
 		.epicSlider.theme-default .epic-caption.epic-impact a:hover span{padding:15px;background: rgb(255,39,120); color:#fff;}
-		
+
 		/*positioning*/
 		.epicSlider.theme-default .epic-caption.epic-impact.topLeft h1 span, .epicSlider.theme-default .epic-caption.epic-impact.topLeft h2 span, .epicSlider.theme-default .epic-caption.epic-impact.topLeft h3 span, .epicSlider.theme-default .epic-caption.epic-impact.topLeft h4 span, .epicSlider.theme-default .epic-caption.epic-impact.topLeft h5 span, .epicSlider.theme-default .epic-caption.epic-impact.topLeft h6 span,.epicSlider.theme-default .epic-caption.epic-impact.topLeft a span,.epicSlider.theme-default .epic-caption.epic-impact.bottomLeft h1 span,.epic-caption.epic-impact.topLeft a span,.epicSlider.theme-default .epic-caption.epic-impact.bottomLeft h2 span, .epicSlider.theme-default .epic-caption.epic-impact.bottomLeft h3 span,.epic-caption.epic-impact.topLeft a span,.epicSlider.theme-default .epic-caption.epic-impact.bottomLeft h4 span,.epic-caption.epic-impact.topLeft a span,.epicSlider.theme-default .epic-caption.epic-impact.bottomLeft h5 span, .epic-caption.epic-impact.topLeft a span,.epicSlider.theme-default .epic-caption.epic-impact.bottomLeft h6 span, .epicSlider.theme-default .epic-caption.epic-impact.bottomLeft a span{float:left;}
-		
+
 		.epicSlider.theme-default .epic-caption.epic-impact.topRight h1 span,.epicSlider.theme-default .epic-caption.epic-impact.topRight h2 span, .epicSlider.theme-default .epic-caption.epic-impact.topRight h3 span,.epicSlider.theme-default .epic-caption.epic-impact.topRight h4 span, .epicSlider.theme-default .epic-caption.epic-impact.topRight h5 span,.epicSlider.theme-default .epic-caption.epic-impact.topRight h6 span,.epicSlider.theme-default .epic-caption.epic-impact.topRight a span,.epicSlider.theme-default .epic-caption.epic-impact.bottomRight h1 span,.epicSlider.theme-default .epic-caption.epic-impact.bottomRight h2 span, .epicSlider.theme-default .epic-caption.epic-impact.bottomRight h3 span, .epicSlider.theme-default .epic-caption.epic-impact.bottomRight h4 span,.epicSlider.theme-default .epic-caption.epic-impact.bottomRight h5 span,.epicSlider.theme-default .epic-caption.epic-impact.bottomRight h6 span,.epicSlider.theme-default .epic-caption.epic-impact.bottomRight a span{float:right;}
-	
-	
-	
+
+
+
 	/*caption type: impact - 2  */
 	.epicSlider.theme-default .epic-caption.epic-impact-2 div{display:table;width:100%;height:100%;}
 	.epicSlider.theme-default .epic-caption.epic-impact-2 div h1,.epicSlider.theme-default .epic-caption.epic-impact-2 div h2,.epicSlider.theme-default .epic-caption.epic-impact-2 div h3,.epicSlider.theme-default .epic-caption.epic-impact-2 div h4,.epicSlider.theme-default .epic-caption.epic-impact-2 div h5,.epicSlider.theme-default .epic-caption.epic-impact-2 div h6{margin-bottom:3px;overflow:hidden;display: table-cell; vertical-align: middle;text-shadow: 4px 5px 0px rgba(0, 0, 0, 0.3); }
-	
+
 		/*sizes*/
 		.epicSlider.theme-default .epic-caption.epic-impact-2 div h1{font-size:100px;line-height:82px;}
 		.epicSlider.theme-default .epic-caption.epic-impact-2 div h2{font-size:80px;line-height:62px;}
@@ -123,13 +123,13 @@
 		.epicSlider.theme-default .epic-caption.epic-impact-2 div h4{font-size:60px;line-height:42px;}
 		.epicSlider.theme-default .epic-caption.epic-impact-2 div h5{font-size:50px;line-height:32px;}
 		.epicSlider.theme-default .epic-caption.epic-impact-2 div h6{font-size:40px;line-height:22px;}
-	
+
 		/*link*/
 		.epicSlider.theme-default .epic-caption.epic-impact-2 a{font-size:30px; color:#fff;}
 		.epicSlider.theme-default .epic-caption.epic-impact-2 a:hover{font-size:30px; color:#fff;}
-	
-	
-	
-	
-	
+
+
+
+
+
 
