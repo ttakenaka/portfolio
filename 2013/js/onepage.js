@@ -188,13 +188,13 @@ $(document).ready(function(){
 
 						$('.header').stop(true,true).slideDown();
 						/*push elements out of view when scrolling*/
-						if(isMobile != true) $('.epic-graphic, .epic-caption,#epic-navigation').css({position:'absolute'});
+						if(isMobile != true) $('.epic-graphic').css({position:'absolute'});
 					}
 			}else{
 					if(!$('.header').is(':animated')) {
 
 						$('.header').stop(true,true).slideUp();
-						if(isMobile != true) $('.epic-graphic, .epic-caption,#epic-navigation').css({position:'fixed'});
+						if(isMobile != true) $('.epic-graphic').css({position:'fixed'});
 
 					}
 

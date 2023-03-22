@@ -25,7 +25,7 @@
 	/*Navigation
 	-------------------*/
 
-	.epicSlider.theme-default #epic-navigation{position:fixed;z-index:5;bottom:50px;right:65px;width:82px;height:40px;}
+	.epicSlider.theme-default #epic-navigation{position:absolute;z-index:5;bottom:50px;right:65px;width:82px;height:40px;}
 	.epicSlider.theme-default #epic-navigation.allcontrols{width:124px;} /*sum of all three buttons*/
 	.epicSlider.theme-default #epic-navigation .nav-button{background-color:#000;/*fallback for iE8*/background:rgba(0,0,0,1);width:40px;height:40px;float:left;cursor:pointer;margin-right:2px;}
 	.epicSlider.theme-default #epic-navigation .nav-button.nav-last{margin-right:0;}/*:last-child{margin-right:0;}-if i8 isn't supported*/
@@ -51,7 +51,7 @@
 	/*Caption - text
 	-------------------*/
 
-	.epicSlider.theme-default .epic-caption{z-index:3;color:#fff; display:none;position:fixed; }
+	.epicSlider.theme-default .epic-caption{z-index:3;color:#fff; display:none;position:absolute; }
 	.epicSlider.theme-default .epic-caption h1,.epicSlider.theme-default .epic-caption h3, .epicSlider.theme-default .epic-caption p {color:#fff !important;}
 
 	/*positions*/
